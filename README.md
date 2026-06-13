@@ -1,18 +1,19 @@
-# 🌍 Bot Kuis Karakteristik Negara (Discord.py)
+# 🌍 Bot Quiz Dunia
 
 Proyek ini adalah bot Discord interaktif berbasis teks untuk bermain kuis tebak karakteristik negara. Proyek ini dibuat terstruktur dengan memisahkan file logika data dan file utama bot agar kode tetap bersih dan mudah dikembangkan.
 
 ## 👥 Anggota Kelompok
-* [Nama Anggota 1] - (Tugas: Programmer Utama / Bot Setup)
-* [Nama Anggota 2] - (Tugas: Penyusun Data Soal / Logika Kuis)
-* [Nama Anggota 3] - (Tugas: Tester & Dokumentasi)
+* Gibran Akhtar Arkananta : Tugas sebagai ketua kelompok dan membuat file README.md, config.py, dan pertanyaan-pertanyaan
+* I Made Yogi Dharma Satyawadi : Tugas membuat logic.py dan bot.py
 
 ---
 
 ## 🛠️ Struktur File Proyek
 Proyek ini terdiri dari dua file Python utama:
-1. main.py : Berisi konfigurasi bot Discord, pengaturan hak akses (Intents), pesan tampilan (Embed), dan perintah chat (commands).
-2. logikakuis.py : Berisi bank data kuis (pertanyaan pilihan ganda) dan fungsi logika untuk memilih soal acak serta memeriksa jawaban.
+1.  README.md : Berisi tentang tata cara pengguna bot.
+2.  main.py : Berisi konfigurasi bot Discord, pengaturan hak akses (Intents), pesan tampilan (Embed), dan perintah chat (commands).
+3. logiC.py : Berisi bank data kuis (pertanyaan pilihan ganda) dan fungsi logika untuk memilih soal acak serta memeriksa jawaban.
+4. config.py : Berisi data token bot.
 
 ---
 
@@ -32,19 +33,19 @@ Proyek ini terdiri dari dua file Python utama:
    !kuis
 Bot akan memunculkan kotak pertanyaan beserta opsi jawaban.
 
-Menjawab Kuis
-Lihat pilihan jawaban yang ada, lalu ketik perintah diikuti dengan nama negaranya secara langsung:
+2. Menjawab Kuis
+   Lihat pilihan jawaban yang ada, lalu ketik perintah diikuti dengan nama negaranya secara langsung:
 
-Plaintext
-!jawab [Nama Negara]
-Contoh: !jawab Singapura atau !jawab Vatikan
+   Plaintext
+   !jawab [Nama Negara]
+   Contoh: !jawab Singapura atau !jawab Vatikan
 
 💻 Cara Menjalankan Proyek (Bagi Pengembang)
 Pastikan sudah menginstal pustaka discord.py di komputer:
 
 Bash
 pip install discord.py
-Buka file main.py dan ganti bagian bot.run('TOKEN_BOT_DISCORD_KAMU') dengan Token Bot Discord milik kelompok kalian yang diambil dari Discord Developer Portal.
+Buka file config.py dan ganti bagian TOKEN = "MASUKAN TOKEN DISINI" dengan Token Bot Discord milik kelompok kalian yang diambil dari Discord Developer Portal.
 
 Jalankan file main.py:
 
