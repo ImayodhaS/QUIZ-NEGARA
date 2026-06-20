@@ -17,12 +17,6 @@ Proyek ini terdiri dari dua file Python utama:
 
 ---
 
-## 🚀 Fitur Bot
-* Pilihan Ganda Teks: Menampilkan soal karakteristik negara (terbesar, terkecil, terpadat) lengkap dengan pilihan opsi (A, B, C, D).
-* Tampilan Estetik (Embed): Menggunakan kotak pesan premium berwarna oranye khas Discord agar terlihat rapi dan profesional.
-* Sistem Memori Channel: Bot mengingat kuis yang sedang berjalan di setiap channel chat agar kunci jawaban tidak tertukar.
-* Anti-Typo Case Insensitive: Pengguna bisa menjawab dengan huruf besar maupun kecil (contoh: !jawab rusia atau !jawab Rusia tetap dianggap benar).
-
 ---
 ## 🎮 Cara Menggunakan di Discord
 
