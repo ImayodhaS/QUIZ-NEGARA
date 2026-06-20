@@ -18,26 +18,25 @@ Proyek ini terdiri dari dua file Python utama:
 ---
 
 ## 🚀 Fitur Bot
-* *Pilihan Ganda Teks:* Menampilkan soal karakteristik negara (terbesar, terkecil, terpadat) lengkap dengan pilihan opsi (A, B, C, D).
-* *Tampilan Estetik (Embed):* Menggunakan kotak pesan premium berwarna oranye khas Discord agar terlihat rapi dan profesional.
-* *Sistem Memori Channel:* Bot mengingat kuis yang sedang berjalan di setiap channel chat agar kunci jawaban tidak tertukar.
-* *Anti-Typo Case Insensitive:* Pengguna bisa menjawab dengan huruf besar maupun kecil (contoh: !jawab rusia atau !jawab Rusia tetap dianggap benar).
+* Pilihan Ganda Teks: Menampilkan soal karakteristik negara (terbesar, terkecil, terpadat) lengkap dengan pilihan opsi (A, B, C, D).
+* Tampilan Estetik (Embed): Menggunakan kotak pesan premium berwarna oranye khas Discord agar terlihat rapi dan profesional.
+* Sistem Memori Channel: Bot mengingat kuis yang sedang berjalan di setiap channel chat agar kunci jawaban tidak tertukar.
+* Anti-Typo Case Insensitive: Pengguna bisa menjawab dengan huruf besar maupun kecil (contoh: !jawab rusia atau !jawab Rusia tetap dianggap benar).
 
 ---
-
 ## 🎮 Cara Menggunakan di Discord
 
-1. *Memulai Kuis*
+1. Memulai Kuis
    Ketik perintah berikut di channel Discord untuk mengeluarkan soal secara acak:
    ```text
-   !kuis
+   !quiz [nama pemain yang didaftarkan]
 Bot akan memunculkan kotak pertanyaan beserta opsi jawaban.
 
 2. Menjawab Kuis
    Lihat pilihan jawaban yang ada, lalu ketik perintah diikuti dengan nama negaranya secara langsung:
 
    Plaintext
-   !jawab [Nama Negara]
+   !jawab [Opsi Jawaan Nama Negara]
    Contoh: !jawab Singapura atau !jawab Vatikan
 
 💻 Cara Menjalankan Proyek (Bagi Pengembang)
@@ -51,3 +50,11 @@ Jalankan file main.py:
 
 Bash
 python main.py
+
+3.Score
+   Untuk melihat Score jawaban anda, ketik Perintah berikut:
+
+   Plaintext
+   !Score [Menampilkan papan score]
+   !Score [...]
+Bot akan memunculkan papan socre
